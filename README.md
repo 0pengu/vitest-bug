@@ -36,7 +36,7 @@ git push
 If you forgot, make sure the private repo's package name starts with an @.
 The bug only works with private Git packages, the easiest way to download git packages is to just open your ~/.gitignore and enter the following:
 
-```yml
+```text
 [url "https://{YOUR-GITHUB-PAT-TOKEN-WITH-REPO-ACCESS-GOES-HERE}@github.com/"]
 	insteadOf = git+ssh://git@github.com/
 ```
